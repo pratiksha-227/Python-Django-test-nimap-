@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    {% for c in Company_list%}
+
+    <h1><a href="/{{c.id}}">{{c.client|upper}}</a></h1>
+    {% endfor%}
+
+  </body>
+</html>
